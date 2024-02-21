@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">demo</string>
+
+    <string name="price">Price : $2000</string>
+
+    <string name="detail">Màn hình: IPS LCD6.79 FullHD+
+                       \nHệ điều hành: Android 13
+                        \nCamera sau: Chính 50 MP &amp; Phụ 8 MP, 2 MP
+                        \nCamera trước: 8 MP
+    </string>
+
+    <string-array name="country">
+        <item>viet nam1</item>
+        <item>viet nam2</item>
+        <item>viet nam3</item>
+        <item>viet nam4</item>
+    </string-array>
+
+    <string-array name="express">
+        <item>+</item>
+        <item>-</item>
+        <item>*</item>
+        <item>/</item>
+    </string-array>
+</resources>
