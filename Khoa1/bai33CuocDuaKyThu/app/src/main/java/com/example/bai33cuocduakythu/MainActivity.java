@@ -25,11 +25,11 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        init();
+        setupUI();
         process();
     }
 
-    public void init(){
+    public void setupUI(){
         tvPoint = findViewById(R.id.textView);
         c[0] = findViewById(R.id.checkBoxNV1);
         c[1] = findViewById(R.id.checkBoxNV2);
