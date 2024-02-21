@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">bai88Intent</string>
+    <string-array name="list_name">
+        <item>amazon</item>
+        <item>dang</item>
+        <item>images</item>
+        <item>itachi</item>
+        <item>linux</item>
+        <item>linux1</item>
+        <item>sasuke</item>
+        <item>ubuntu</item>
+        <item>img_question</item>
+    </string-array>
+</resources>
