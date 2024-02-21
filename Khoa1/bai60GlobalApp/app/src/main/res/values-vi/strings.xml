@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">bai60GlobalApp</string>
+    <string name="text_title">Phiếu thông tin</string>
+    <string name="hint_name">Nhập họ và tên</string>
+    <string name="hint_phone">Nhập số điện thoại</string>
+    <string name="hint_email">Nhập email</string>
+    <string name="text_confirm">Xác nhận</string>
+    <string name="text_Greet">chao ban</string>
+    <string name="text_Phone">so dien thoai</string>
+    <string name="text_Email">email</string>
+</resources>

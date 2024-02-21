@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">bai60GlobalApp</string>
+    <string name="text_title">Information form</string>
+    <string name="hint_name">Enter fullname</string>
+    <string name="hint_phone">Enter phone number</string>
+    <string name="hint_email">Enter email</string>
+    <string name="text_confirm">Confirm</string>
+    <string name="text_Greet">Hello</string>
+    <string name="text_Phone">Phone</string>
+    <string name="text_Email">email</string>
+</resources>

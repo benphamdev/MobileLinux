@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <bitmap
+            android:src="@drawable/img_1"
+            android:gravity="center"
+            />
+    </item>
+    <item android:top="30dp" android:left="200dp">
+        <bitmap
+            android:gravity="center"
+            android:src="@drawable/img"
+            />
+    </item>
+
+    <item android:bottom="100dp" android:right="500dp">
+        <bitmap
+            android:gravity="center"
+            android:src="@drawable/itachi"
+            />
+    </item>
+</layer-list>
