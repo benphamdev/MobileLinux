@@ -59,9 +59,8 @@ public class MainActivity extends AppCompatActivity {
                 urlConnection.setDoInput(true);
                 urlConnection.connect();
 
-                BufferedReader bufferedReader =
-                        new BufferedReader(
-                                new InputStreamReader(urlConnection.getInputStream(), StandardCharsets.UTF_8));
+                BufferedReader bufferedReader = new BufferedReader(
+                        new InputStreamReader(urlConnection.getInputStream(), StandardCharsets.UTF_8));
 
                 String line;
 
