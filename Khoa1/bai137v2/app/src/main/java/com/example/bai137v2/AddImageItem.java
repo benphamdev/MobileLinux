@@ -24,11 +24,11 @@ import java.io.ByteArrayOutputStream;
 
 public class AddImageItem extends AppCompatActivity {
 
+    final int REQUEST_CODE_CAMERA = 123, RESQUEST_CODE_FOLDER = 456;
     Button btnAdd, btnCancel;
     ImageButton imgBtnCam, imgBtnFolder;
     ImageView imgViewResult;
     EditText edtNameItem, edtDesc;
-    int REQUEST_CODE_CAMERA = 123, RESQUEST_CODE_FOLDER = 456;
     ActivityResultLauncher<Intent> cameraLauncher, folderLauncher;
     Intent cameraIntent, folderIntent;
 
@@ -39,7 +39,6 @@ public class AddImageItem extends AppCompatActivity {
 
         setUpUI();
         addEvent();
-
     }
 
     public void addEvent() {
@@ -141,6 +140,7 @@ public class AddImageItem extends AppCompatActivity {
             @NonNull int[] grantResults
     ) {
         super.onRequestPermissionsResult(requestCode, permissions, grantResults);
+
         if (requestCode == REQUEST_CODE_CAMERA) {
             if (grantResults.length > 0 && grantResults[0] == PackageManager.PERMISSION_GRANTED) {
                 launchCamera();
@@ -148,9 +148,7 @@ public class AddImageItem extends AppCompatActivity {
                 Toast.makeText(this, "Permission denied", Toast.LENGTH_SHORT)
                      .show();
             }
-        }
-
-        if (requestCode == RESQUEST_CODE_FOLDER) {
+        } else if (requestCode == RESQUEST_CODE_FOLDER) {
             if (grantResults.length > 0 && grantResults[0] == PackageManager.PERMISSION_GRANTED) {
                 launchFolder();
             } else {
@@ -159,7 +157,7 @@ public class AddImageItem extends AppCompatActivity {
             }
         }
     }
-
+    
     @SuppressLint("QueryPermissionsNeeded")
     private void launchCamera() {
         cameraIntent = new Intent(MediaStore.ACTION_IMAGE_CAPTURE);

@@ -1,7 +1,7 @@
 package com.example.bai137v2;
 
 public class ItemObject {
-    private int Id;
+    private final int Id;
     private String NameItem;
     private String Description;
     private byte[] Image;
@@ -15,10 +15,6 @@ public class ItemObject {
 
     public int getId() {
         return Id;
-    }
-
-    public void setId(int id) {
-        Id = id;
     }
 
     public String getNameItem() {
