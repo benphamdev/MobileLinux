@@ -67,6 +67,10 @@ public class AddImageItem extends AppCompatActivity {
                  .show();
             startActivity(new Intent(AddImageItem.this, MainActivity.class));
         });
+
+        btnCancel.setOnClickListener(v -> {
+            startActivity(new Intent(AddImageItem.this, MainActivity.class));
+        });
     }
 
     public void setUpUI() {
@@ -157,7 +161,7 @@ public class AddImageItem extends AppCompatActivity {
             }
         }
     }
-    
+
     @SuppressLint("QueryPermissionsNeeded")
     private void launchCamera() {
         cameraIntent = new Intent(MediaStore.ACTION_IMAGE_CAPTURE);
