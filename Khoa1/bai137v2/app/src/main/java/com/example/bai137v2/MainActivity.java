@@ -1,4 +1,4 @@
-package com.example.bai137sqliteimage;
+package com.example.bai137v2;
 
 import android.content.Intent;
 import android.database.Cursor;
