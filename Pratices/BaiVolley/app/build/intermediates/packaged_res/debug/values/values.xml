@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <string name="app_name">BaiVolley</string>
+    <string name="are_you_new_user_register">Are you new user register ?\n</string>
+    <string name="create_naccount">create account\n</string>
+    <string name="email">email\n</string>
+    <string name="facebook">facebook</string>
+    <string name="forget_your_password_recovery_it">forget your password recovery it\n</string>
+    <string name="google">google\n</string>
+    <string name="name">name\n</string>
+    <string name="notification">notification\n</string>
+    <string name="t_t_t_t_tpassword">password\n</string>
+    <string name="video_call">video_call\n</string>
+    <string name="voice_call">voice_call\n</string>
+    <style name="Base.Theme.BaiVolley" parent="Theme.Material3.DayNight.NoActionBar">
+        
+        
+    </style>
+    <style name="Theme.BaiVolley" parent="Base.Theme.BaiVolley"/>
+</resources>
